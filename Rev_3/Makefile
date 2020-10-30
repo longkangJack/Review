@@ -1,5 +1,5 @@
-proc:proc.c
-	gcc -o proc proc.c
+mlk:mlk.c
+	gcc $^ -o $@
 .PHONY:clean
 clean:
-	rm -f proc
+	rm -f mlk
