@@ -1,5 +1,5 @@
 mlk:mlk.c
-	gcc $^ -o $@
+	gcc -o $@ $^
 .PHONY:clean
 clean:
 	rm -f mlk
